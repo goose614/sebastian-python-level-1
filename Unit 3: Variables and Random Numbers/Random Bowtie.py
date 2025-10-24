@@ -1,0 +1,25 @@
+import turtle
+import random
+t = turtle.Turtle()
+t.speed(10000000000000000000000000000000000000000000000000000)
+r = random.randint(0,255)
+g = random.randint(0,255)
+b = random.randint(0,255)
+t.color(r,g,b)
+t.begin_fill()
+t.right(30)
+for i in range(3):
+  t.right(120)
+  t.forward(100)
+t.end_fill()
+r = random.randint(0,255)
+g = random.randint(0,255)
+b = random.randint(0,255)
+t.color(r,g,b)
+t.begin_fill()
+t.goto(0,0)
+t.left(60)
+for i in range(3):
+  t.forward(100)
+  t.right(120)
+t.end_fill()
